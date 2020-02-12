@@ -1,24 +1,12 @@
-# README
+# Dealing With Errors
+In the development process you will *frequently* encounter errors.
+This challenge is designed to ease you into the process of debugging something broken. There's a lot of big scary red screens of death. But stay paitent and you'll end up with a working app. 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Installation 
+ *  Make sure you're in the directory that you keep your Rails projects and clone the repo 
+ ``` 
+ $ cd fix_the_app
+ $ bundle install
+ $ rails db:create
+ $ rails db:migrate 
+ ```
